@@ -5,11 +5,11 @@ The provided code uses pythia-mill lib: https://github.com/maxim-borisyak/pythia
 
 Everything is avalable within docker. To build docker on your machine:
 
-1. Build Dockerfile from pythia-mill lib mentioned above and tag it with some name (e.g. maxim_pythia_mill_image).
+1. Build Dockerfile from pythia-mill lib mentioned above and tag it with some name (e.g. pythia_mill_image).
 
 2. Check that the name you have chosen is the same as the name of base image in Dockerfile:
 ```Dockerfile
-FROM maxim_pythia_mill_image
+FROM pythia_mill_image
 ```
 and build the docker image (in this directory):
 ```bash
